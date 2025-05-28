@@ -184,4 +184,4 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/CSPrep",
       webapp: "https://csprep.netlify.app/",
     }
-  ];  
+  ];
