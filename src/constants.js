@@ -42,8 +42,8 @@ import ngLogo from './assets/education_logo/ng.jpeg';
 import sdaLogo from './assets/education_logo/sda.jpeg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import blinkitLogo from './assets/work_logo/blinkit.jpg';
+import groupOrderingLogo from './assets/work_logo/proj2.webp';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
@@ -165,23 +165,40 @@ export const SkillsInfo = [
   
   export const projects = [
     {
-      id: 0,
-      title: "GitHub Profile Detective",
+      id: 1,
+      title: "Blinkit Product Growth and Analytics",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "A strategic product research and analytics case study focused on improving Blinkit's customer retention and average order value (AOV). The project analyzes user personas, pain points, and competitive benchmarks, and proposes feature enhancements like personalized recommendations, wishlist functionality, real-time tracking, and a loyalty program to drive user engagement and sustainable growth.",
+      image: blinkitLogo, // Replace with actual image reference
+      tags: [
+        "Product Strategy",
+        "User Research",
+        "Market Analysis",
+        "UX Design",
+        "Business Analytics",
+        "Growth Metrics",
+        "Quick Commerce"
+      ],
+      github: "https://github.com/OmkarK3030/blinkit",
+      webapp: "https://drive.google.com/file/d/1qQ8ZoklrT-bHo1BLptMmJb_KWzwVtFC3/view?usp=sharing",
     },
     {
-      id: 1,
-      title: "CS Prep",
+      id: 2,
+      title: "Community Group Ordering – Quick Commerce",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        "A strategic product feature proposal aimed at increasing Average Order Value (AOV) and delivery efficiency for quick commerce platforms. This PRD introduces a Community Group Ordering system where users in shared locations can combine orders, split delivery fees, and engage via cart-sharing. It outlines detailed personas, use cases, feature scope, technical architecture, and success metrics to guide implementation and pilot rollout.",
+      image: groupOrderingLogo, // Replace with the actual image or logo
+      tags: [
+        "Product Management",
+        "PRD",
+        "User Personas",
+        "Quick Commerce",
+        "Delivery Optimization",
+        "UX Design",
+        "Growth Strategy"
+      ],
+      github: "https://github.com/OmkarK3030/quick-commerce-feature", // Add GitHub repo if available
+      webapp: "https://drive.google.com/file/d/1U3QNTzZSWFzQyZD4CfPGGtgQUo98eL2J/view?usp=sharing", // Add link to hosted PRD or case study if available
     }
+    
   ];
